@@ -71,7 +71,7 @@ p{
 }
 .current{
   text-decoration: underline;
-  color: hotpink;
+  color: blueviolet;
 }
 .headshot{
   background-attachment: fixed; /* Parallax effect */
