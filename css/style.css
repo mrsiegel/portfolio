@@ -192,7 +192,7 @@ div.at-container {
   height: 100%;
 }
 .at-item {
-  color: #3079ed;
+  color: darkblue;
   animation-name: angry-animation;
   animation-duration: 1.5s;
   animation-timing-function: ease;
