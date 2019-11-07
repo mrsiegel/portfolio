@@ -79,7 +79,9 @@ p{
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
-  height: 650px;
+  height: 600px;
+  width: 90%;
+  margin: 0 auto;
   color: white;
   grid-column: 1/-1;
   opacity: .75;
@@ -114,13 +116,21 @@ h3{
 
 .gallery{
   display:grid;
-  grid-template-columns: 1fr;
-  
+  grid-template-columns: 1fr; 
 }
-
 .gallery img{
   width: 85%;
   box-shadow: 5px 10px lightskyblue;
+}
+.form-title{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
+}
+.text-center-header{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(96, 143, 204);
 }
 figcaption{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -130,8 +140,8 @@ figcaption{
 }
 .flip-card{
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   margin-left: auto;
@@ -160,8 +170,12 @@ figcaption{
   color: black;
 
 }
+.flip-card-front img{
+  height: 100px;
+  width: 110px;
+}
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: white;
   color: white;
   transform: rotateY(180deg);
 }

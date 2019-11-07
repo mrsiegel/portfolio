@@ -5,31 +5,7 @@
         <title>Sample Contact Form</title>
         <link rel="stylesheet" type="text/css" href="css/html_5_reset.css">
         <link rel = "stylesheet" href = "css/style.css">
-        <!-- BOOTSTRAP CDNs -->
-    
-        <!-- FONT AWESOME -->
-        
-        <style>
-            .header {
-                color: #36A0FF;
-                font-size: 27px;
-                padding: 10px;
-            }
-    
-            .bigicon {
-                font-size: 35px;
-                color: #36A0FF;
-                padding-left:2%;
-            }
-            form div{
-                display:inline-block;
-                width: 90%;
-            }
-            button.btn{             /*Why couldn't I just use button?*/
-                display: block;
-                margin: 0 auto;
-            }
-    
+
     </style>
 </head>
 <body>
@@ -46,7 +22,6 @@
                 </ul>
         </nav>
 </div>
-<!-- http://www.prepbootstrap.com/bootstrap-template/contact-form -->
 <header id="main">
 
 <div class='at-container'>
@@ -65,19 +40,25 @@
 
 <iframe src = "docs/MargotSiegel_Resume_1.pdf"></iframe>
 
-<form class="form-horizontal" method="post" action = "https://formspree.io/mrsiegel@umich.edu" method = POST > 
+<form action="https://formspree.io/xgeeenqe" method="POST">
     <fieldset>
-        <legend class="text-center header">Your Contact Information</legend>
+        <legend class="text-center-header">Contact Information</legend>
 
         <div class="form-group">
             <span><i class="fa fa-user bigicon"></i></span>
             <div>
+                <div class = "form-title">
+                    First Name
+                </div>
                 <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
             </div>
         </div>
         <div class="form-group">
             <span><i class="fa fa-user bigicon"></i></span>
             <div>
+                <div class = "form-title">
+                    Last Name
+                </div>
                 <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
             </div>
         </div>
@@ -85,6 +66,9 @@
         <div class="form-group">
             <span><i class="fa fa-paper-plane bigicon"></i></span>
             <div>
+                <div class = "form-title">
+                    Email
+                </div>
                 <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
             </div>
         </div>
@@ -92,6 +76,9 @@
         <div class="form-group">
             <span><i class="fa fa-phone-square bigicon"></i></span>
             <div>
+                <div class = "form-title">
+                    Phone Number
+                </div>
                 <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
             </div>
         </div>
@@ -99,6 +86,9 @@
         <div class="form-group">
             <span><i class = "fas fa-pencil-alt bigicon"></i></span>
             <div>
+                <div class = "form-title">
+                    Message
+                </div>
                 <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days."></textarea>
             </div>
         </div>
