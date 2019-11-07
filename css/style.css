@@ -88,7 +88,7 @@ p{
 }
 h1{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 48px;
+font-size: 38px;
 color: darkblue;
 text-align: center;
 line-height: 1;
@@ -262,7 +262,6 @@ div.at-container {
   grid-row-gap: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* grid-template-rows: 200px 400px 300px 200px; */
   width: 100vw; 
 }
 .gallery{
