@@ -74,11 +74,11 @@ p{
   color: darkblue;
 }
 .headshot{
-  background-attachment: fixed; /* Parallax effect */
+  background-attachment: fixed; 
   background-image: url('../images/margot_headshot.jpg');      
-  background-position: center;  /* Parallax effect */
-  background-repeat: no-repeat; /* Parallax effect */
-  background-size: cover;       /* Parallax effect */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;     
   height: 600px;
   width: 90%;
   margin: 0 auto;
