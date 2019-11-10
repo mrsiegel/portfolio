@@ -75,7 +75,7 @@ p{
 }
 .headshot{
   background-attachment: fixed; /* Parallax effect */
-  background-image: url('../images/margot_headshot.jpg');      /* Your code here - Link to header.jpg in the images folder */
+  background-image: url('../images/margot_headshot.jpg');      
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
@@ -270,6 +270,6 @@ div.at-container {
 }
 @media screen and (prefers-reduced-motion: reduce){
   html{
-      scroll-behavior: auto; /* Removes scroll animation */
+      scroll-behavior: auto;
 }
 }
